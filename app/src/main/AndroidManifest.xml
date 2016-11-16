@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.sch.smktelkom_mlg.learn.recyclerview3">
 
@@ -20,7 +19,7 @@
         </activity>
         <activity
             android:name=".DetailActivity"
-            android:label="@string/title_activity_detail"
+            android:label=".DetailActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".InputActivity"></activity>
     </application>

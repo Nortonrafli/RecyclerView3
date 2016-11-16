@@ -1,26 +1,14 @@
 package id.sch.smktelkom_mlg.learn.recyclerview3;
 
-import android.content.Context;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
-
-import org.junit.Test;
-import org.junit.runner.RunWith;
-
-import static org.junit.Assert.assertEquals;
+import android.app.Application;
+import android.test.ApplicationTestCase;
 
 /**
- * Instrumentation test, which will execute on an Android device.
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-@RunWith(AndroidJUnit4.class)
-public class ExampleInstrumentedTest {
-    @Test
-    public void useAppContext() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
-
-        assertEquals("id.sch.smktelkom_mlg.learn.recyclerview3", appContext.getPackageName());
+public class ExampleInstrumentedTest extends ApplicationTestCase<Application> {
+    public ExampleInstrumentedTest() {
+        super(Application.class);
     }
 }
